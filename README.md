@@ -1,16 +1,158 @@
-# React + Vite
+# 🛍️ ShopEase - E-Commerce Product Catalog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive E-Commerce Product Catalog built using **React.js**, **Vite**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+This project demonstrates React fundamentals such as reusable components, state management, props, hooks, event handling, filtering, searching, sorting, and shopping cart functionality.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+(Add your Vercel link here after deployment)
 
-## Expanding the ESLint configuration
+Example:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+https://shopease.vercel.app
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+
+(Add Screenshot Here)
+
+### Shopping Cart
+
+(Add Screenshot Here)
+
+---
+
+## ✨ Features
+
+- ✅ Product Catalog
+- ✅ Display Products from Local Data
+- ✅ Product Images
+- ✅ Category Filter
+- ✅ Search Products
+- ✅ Sort Products
+- ✅ Add to Cart
+- ✅ Remove from Cart
+- ✅ Increase / Decrease Quantity
+- ✅ Total Price Calculation
+- ✅ Persistent Cart using Local Storage
+- ✅ Responsive Layout
+- ✅ Professional Navbar
+- ✅ Professional Footer
+- ✅ Loading Spinner
+- ✅ Empty Cart State
+- ✅ Empty Search State
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- Vite
+- JavaScript (ES6)
+- Tailwind CSS
+
+---
+
+## 📂 Folder Structure
+
+```
+src
+│
+├── assets
+│
+├── components
+│   ├── Navbar.jsx
+│   ├── Footer.jsx
+│   ├── ProductCard.jsx
+│   ├── ProductList.jsx
+│   ├── Cart.jsx
+│   ├── SearchBar.jsx
+│   ├── Filter.jsx
+│   ├── Sort.jsx
+│   └── Loading.jsx
+│
+├── data
+│   └── products.js
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/E-Commerce-Product-Catalog.git
+```
+
+Go to the project folder
+
+```bash
+cd E-Commerce-Product-Catalog
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the project
+
+```bash
+npm run dev
+```
+
+---
+
+## 📚 React Concepts Used
+
+- Functional Components
+- Props
+- State Management
+- useState()
+- useEffect()
+- Event Handling
+- Conditional Rendering
+- Array Mapping
+- Local Storage
+- Component Reusability
+
+---
+
+## 📌 Future Improvements
+
+- Product Details Page
+- Checkout Page
+- Payment Integration
+- User Authentication
+- Backend Integration
+- Product API
+
+---
+
+## 👩‍💻 Author
+
+**Sushree Sangita Behera**
+
+GitHub:
+https://github.com/sushree-sangita-behera
+
+LinkedIn:
+(Add your LinkedIn Profile)
+
+---
+
+## ⭐ If you like this project
+
+Give this repository a ⭐ on GitHub.
